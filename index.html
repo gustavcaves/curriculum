@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: ghostwhite;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @font-face {
+            font-family: Fuente1;
+            src: url(./Mulish/Mulish-Italic-VariableFont_wght.ttf);
+        }
+        #nombre {
+            font-family: Fuente1;
+            font-size: 100px;
+        }
+
+        @media (max-width: 600px) {
+            #nombre {
+                font-size: 50px;
+            }
+            #myImg {
+                width: 200px;
+            }
+
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        
+
+        <div class="row border mb-1">
+            <div class="col-md-12 boder bg-black text-light">
+
+
+                <div class="col-md-12 boder bg-black text-light d-block d-xxl-none d-xl-none d-lg-none d-md-none">
+
+                    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="collapse " id="navbarToggleExternalContent">
+                        <div class="bg-black p-4">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted" href="#perfil">Perfil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted" href="#habilidades">Habilidades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted" href="#experiencialaboral">Experiencia Laboral</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted" href="#formacionacademica">Formacion Academica</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted" href="#redessociales">Redes Sociales</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="col-md-12 ps-5 text-md-end text-center">
+                            <h1 id="nombre">Gustav Caves</h1>
+                        </div>
+                        <div class="col-md-12 ps-5 text-end">
+                            <p class="fw-lighter">DESARROLLADOR WEB</p>
+                            <p class="fw-lighter">micorreo@gmail.com</p>
+                            <p class="fw-lighter">34-1234-2345</p>
+                            <p class="fw-lighter">www.mipaginaweb.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="mx-auto d-block mt-3 mb-3 rounded-3" id="myImg" src="./1629363264892.jpeg" width="400" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 nobordergc mt-5">
+                <div class="row">
+                    <div class="col-md-4 nobordergc">
+                        <div class="col-12 nobordergc">
+                            <h5 class="card-title" id="perfil">Perfil</h5>
+                            <p class="fw-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                                reprehenderit dolores dolore recusandae velit? Alias aperiam laboriosam consequatur
+                                tempora eos, voluptates sapiente? Doloremque incidunt vero aspernatur similique odit
+                                doloribus illo?</p>
+                        </div>
+                        <div class="col-12 nobordergc">
+                            <h5 class="card-title" id="habilidades">Habilidades</h5>
+                                <ol class="list-group list-group-numbered">
+                                    <li class="list-group-item fw-lighter">Html 5</li>
+                                    <li class="list-group-item fw-lighter">CSS 3</li>
+                                    <li class="list-group-item fw-lighter">JavaScript</li>
+                                  </ol>
+                        </div>
+                    </div>
+                    <div class="col-md-4 nobordergc">
+                        <h5 class="card-title" id="experiencialaboral">Experiencia Laboral</h5>
+                        
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Fotografia de Eventos
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <!-- <p class="fw-bold">Fotografia de Eventos</p> -->
+                                    <p class="fw-normal">Alvares y asociados</p>
+                                    <p class="fw-normal">Buenos Aires 2018 - 2021</p>
+                                    <p class="fw-lighter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ea
+                                        quod, veritatis exercitationem error numquam soluta voluptatem perspiciatis molestiae
+                                        omnis voluptas porro dolore. Dolor quos blanditiis maiores exercitationem delectus
+                                        ratione?</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+
+
+
+
+                                
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Fotografia de Eventos
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  
+                                  <!-- <p class="fw-bold">Fotografia de Eventos</p> -->
+                                    <p class="fw-normal">Alvares y asociados</p>
+                                    <p class="fw-normal">Buenos Aires 2018 - 2021</p>
+                                    <p class="fw-lighter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ea
+                                        quod, veritatis exercitationem error numquam soluta voluptatem perspiciatis molestiae
+                                        omnis voluptas porro dolore. Dolor quos blanditiis maiores exercitationem delectus
+                                        ratione?</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Fotografia de Eventos
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  
+                                  <!-- <p class="fw-bold">Fotografia de Eventos</p> -->
+                                    <p class="fw-normal">Alvares y asociados</p>
+                                    <p class="fw-normal">Buenos Aires 2018 - 2021</p>
+                                    <p class="fw-lighter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ea
+                                        quod, veritatis exercitationem error numquam soluta voluptatem perspiciatis molestiae
+                                        omnis voluptas porro dolore. Dolor quos blanditiis maiores exercitationem delectus
+                                        ratione?</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        
+                        
+                    </div>
+                    <div class="col-md-4 nobordergc">
+                        <h5 class="card-title" id="formacionacademica">Formacion Academica</h5>
+
+
+                        <div class="card" style="width: auto;">
+                            <!-- <img src="..." class="card-img-top" alt="..."> -->
+                            <div class="card-body">
+                              <!-- <h5 class="card-title">Card title</h5> -->
+                              <p class="card-text">This are my Studies</p>
+                              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Year</th>
+                                    <th scope="col">Carreer</th>
+                                    <th scope="col">Site</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>2017</td>
+                                    <td>Lic. en Imagen y Sonido</td>
+                                    <td>Mi Universidad</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>2017</td>
+                                    <td>Lic. en Imagen y Sonido</td>
+                                    <td>Mi Universidad</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>2017</td>
+                                    <td>Lic. en Imagen y Sonido</td>
+                                    <td>Mi Universidad</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 boder text-center mt-2 mb-2" id="redessociales">
+                <a href="#">
+                    <img class="me-2" src="./twitter.svg" width="30" alt="">
+                </a>
+                <a href="#">
+                    <img class="me-2 " src="./linkedin.svg" width="30" alt="">
+                </a>
+                <a href="#">
+                    <img class="me-2" src="./github.svg" width="30" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
