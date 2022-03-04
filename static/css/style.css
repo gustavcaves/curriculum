@@ -1,0 +1,29 @@
+body {
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Fuente1;
+    src: url(./Mulish/Mulish-Italic-VariableFont_wght.ttf);
+}
+#nombre {
+    font-family: Fuente1;
+    font-size: 100px;
+}
+
+@media (max-width: 600px) {
+    #nombre {
+        font-size: 50px;
+    }
+    #myImg {
+        width: 200px;
+    }
+    #datospersonales {
+
+    }
+
+}
